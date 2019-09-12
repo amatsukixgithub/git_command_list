@@ -5,7 +5,7 @@ git barnch
 git checkout -b 作成するブランチ名
 
 リモートのを持ってきてローカルで作って移動
-git checkout -b develop-coyori-201907 origin/develop-coyori-201907
+git checkout -b branch_name origin/branch_name
 
 
 ブランチ削除
@@ -38,7 +38,7 @@ git add -p ~ファイル名~
 git commit -m 'コメント入力'
 
 プッシュして完了
-git push origin JIMOS-101_ACRMDS-27
+git push origin ブランチ名
 
 直前のコミットを取消
 git reset --soft HEAD^
@@ -50,7 +50,7 @@ addを取り消す
 git reset ファイル名
 
 pullするとき
-git pull origin JIMOS-101_ACRMDS-27
+git pull origin ブランチ名
 
 
 変更を一時保存
